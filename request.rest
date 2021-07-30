@@ -6,7 +6,7 @@ POST http://localhost:3000/signin
 Content-Type: application/json
 
 {
-    "email": "yasuhironose@imbesideyou.com"
+    "email": "user_email"
 }
 
 ###
@@ -44,4 +44,4 @@ GET http://localhost:3000/report
 
 ###
 
-GET http://localhost:3000/meetingreport/rohisuyaseno@gmail.com
+GET http://localhost:3000/meetingreport/user_email
