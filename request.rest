@@ -1,0 +1,47 @@
+GET http://localhost:3000/user
+
+###
+
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "email": "yasuhironose@imbesideyou.com"
+}
+
+###
+
+POST http://localhost:3000/createUser
+Content-Type: application/json
+
+{
+    "email": "shubhamstyles90113@gmail.com",
+    "first_name": "Shubham",
+    "last_name": "Kumar"
+}
+
+###
+
+DELETE http://localhost:3000/delete/shubhamstyles90113@gmail.com
+
+###
+
+GET http://localhost:3000/meetings
+
+###
+
+POST http://localhost:3000/createMeeting
+Content-Type: application/json
+
+{
+    "topic": "Urgent Zoom meeting",
+    "password": "Zoom"
+}
+
+###
+
+GET http://localhost:3000/report
+
+###
+
+GET http://localhost:3000/meetingreport/rohisuyaseno@gmail.com
