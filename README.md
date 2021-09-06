@@ -1,6 +1,6 @@
 
 ## To Develop and run the code
-- Zoom reference code, which I have created using the reference to get the analytics data.
+- Zoom reference code, which I have created using the [Zoom-API-reference](https://marketplace.zoom.us/docs/api-reference/zoom-api) to get the analytics data.
 ```
 npm install
 ```
