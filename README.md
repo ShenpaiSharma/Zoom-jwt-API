@@ -1,3 +1,16 @@
+
+## To Develop and run the code
+- Zoom reference code, which I have created using the reference to get the analytics data.
+```
+npm install
+```
+```
+npm start
+```
+
+- check it's request.rest file for the API response after adding REST Client extension in VS Code or use Postman to test the API.
+
+
 ## API Endpoints
 
 
